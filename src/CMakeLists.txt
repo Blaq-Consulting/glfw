@@ -92,7 +92,7 @@ if ("${CMAKE_C_COMPILER_ID}" STREQUAL "GNU" OR
         COMPILE_FLAGS -Wdeclaration-after-statement)
 endif()
 
-add_library(glfw3 ${glfw_SOURCES} ${glfw_HEADERS})
+add_library(glfw_blaq ${glfw_SOURCES} ${glfw_HEADERS})
 set_target_properties(glfw_blaq PROPERTIES
                       OUTPUT_NAME ${GLFW_LIB_NAME}
                       VERSION ${GLFW_VERSION}
